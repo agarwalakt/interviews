@@ -1,12 +1,20 @@
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
 
-    public static void main (String[] args){
-        int[] arr = {1, 6, 2, 12, 4, 7,10};
+    public static void main (String[] args) {
+        int[] arr={2,4,1,10,12,24,2,18};
+        Arrays.sort(arr);
+        BinarySearch.binSearch(arr, 1);
+
+
     }
+
+
+
+
+
 
 
 }
