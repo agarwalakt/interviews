@@ -17,4 +17,23 @@ public class BinarySearch {
         }
         return -1;
     }
+
+    public static int binSearchRecursive(int []input, int start, int high, int x){
+        if(start>high){
+            return -1;
+        }
+        int mid=(start+high)/2;
+        if(input[mid]>x){
+            int a=binSearchRecursive(input, start, mid-1, x);
+            System.out.println(a);
+            return a;
+        }else if (input[mid]<x){
+            int b=binSearchRecursive(input, mid+1, high, x);
+            System.out.println(b);
+            return b;
+        }else {
+            return mid;
+        }
+
+    }
 }
