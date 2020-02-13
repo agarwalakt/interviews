@@ -3,7 +3,7 @@ class Node {
 }
 public class StringDup {
     class LinkedListNode {
-        Noode n = new Noode();
+//        Noode n = new Noode();
         int data;
         Noode previous;
         Noode next;

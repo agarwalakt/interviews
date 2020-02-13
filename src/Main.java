@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         char[] arr = ("lodnfdnfd").toCharArray();
-        printReverse(arr);
+        helper(0, arr);
     }
 
 
