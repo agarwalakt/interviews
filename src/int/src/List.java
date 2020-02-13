@@ -3,16 +3,16 @@ public class List {
 	
 
 }
-class Node{
+class Noode {
 Node next = null;
 int data;
 
-public Node(int d) {
+public Noode(int d) {
 	data=d;
 }
 void appendToTail(int d) {
-	Node end = new Node(d);
-	Node n = this;
+	Noode end = new Noode(d);
+	Noode n = this;
 	while(n.next!=null) {
 		n=n.next;
 	}
